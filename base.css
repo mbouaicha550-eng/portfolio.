@@ -1,0 +1,16 @@
+@font-face{font-family:'Bricolage Grotesque';font-weight:700;font-style:normal;font-display:swap;src:url(../fonts/bricolage-grotesque-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/instrument-sans-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:500;font-style:normal;font-display:swap;src:url(../fonts/instrument-sans-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Instrument Sans';font-weight:600;font-style:normal;font-display:swap;src:url(../fonts/instrument-sans-latin-600-normal.woff2) format('woff2')}
+:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--c-bg);color:var(--c-ink);font:400 1.0625rem/1.6 var(--font-body);overflow-x:clip;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--c-bg);z-index:30}
+h1,h2,h3{font-family:var(--font-display);font-weight:700;line-height:1.05;letter-spacing:-.03em;margin:0}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--c-lime);outline-offset:3px}
+::selection{background:var(--c-lime);color:var(--c-bg)}
+h2{font-size:clamp(1.9rem,4.6vw,3.6rem);max-width:18ch}
+h1{font-size:clamp(2.1rem,5.2vw,4.3rem)}

@@ -1,0 +1,8 @@
+:root{
+  --c-bg:#030407;--c-panel:#0a0d13;--c-line:#1a212c;--c-ink:#eceff4;--c-ink-soft:#c5cbd4;--c-mute:#a1a8b3;--c-lime:#d4ff24;--c-blue:#1558c9;--c-white:#fff;--c-black:#000;
+  --c-edge:#3a424b;--c-edge-2:#5a636d;--c-phone:#2a2f36;--c-ring:#243044;--c-ring-2:#0d121b;--c-door-bg:#04060a;--c-room-1:#070a10;--c-room-2:#0a0f18;--c-hover:#111722;--c-hover-line:#2a3446;--c-vis:#05070c;--c-metal-1:#f1f3f6;--c-metal-2:#8a919b;--c-on-light:#0d1012;--c-err:#ff8a7a;
+  --rgb-bg:3 4 7;--rgb-blue:21 88 201;
+  --font-display:'Bricolage Grotesque','Instrument Sans',system-ui,sans-serif;--font-body:'Instrument Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --r:10px;--pad:clamp(20px,5vw,72px);--header-h:64px;--sec-y:clamp(64px,10vw,120px);
+  --dur-fast:.2s;--dur:.5s;--dur-slow:.9s;--ease:cubic-bezier(.25,.8,.2,1);
+}

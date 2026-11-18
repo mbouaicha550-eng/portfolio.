@@ -1,0 +1,17 @@
+/* ALL decorative motion lives here, gated for users who allow motion. */
+@keyframes roll{0%,26%{transform:none}33%,59%{transform:translateY(-1.16em)}66%,92%{transform:translateY(-2.32em)}100%{transform:translateY(-3.48em)}}
+@keyframes float{to{translate:0 -12px}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  .btn{transition:transform var(--dur-fast)}.btn:hover{transform:translateY(-2px)}
+  .menu summary,.dir a,.lk,.cp,nav ul a{transition:color var(--dur-fast),border-color var(--dur-fast)}
+  .roll i{animation:roll 8s infinite}
+  .hp .ph{animation:float 6s ease-in-out infinite alternate}.p2{animation-delay:-2s}.p3{animation-delay:-4s}
+  .door{transition:transform var(--dur-slow) var(--ease)}.gl{transition:opacity .7s}
+  .dw:not(.open) .door:hover{transform:rotateY(-10deg)}
+  .pn.on{animation:rise var(--dur) both}
+  .lb{transition:transform .25s,border-color .25s}.lb:hover{transform:translateY(-4px)}
+  .js-reveal-ready .rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+  .js-reveal-ready .rv.in{opacity:1;transform:none}
+}

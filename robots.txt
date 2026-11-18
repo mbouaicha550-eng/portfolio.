@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohamed-bouaicha-portfolio-mbouaicha550-1956.vercel.app/sitemap.xml
